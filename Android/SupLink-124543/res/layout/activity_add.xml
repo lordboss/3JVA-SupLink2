@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/addNewShorlink"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnew"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnew_name" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnew_url" />
+
+    <EditText
+        android:id="@+id/editText_url"
+        android:inputType="textUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addnew_example" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnew_button" />
+
+</LinearLayout>

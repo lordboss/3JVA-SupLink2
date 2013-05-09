@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/statistics"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:id="@+id/Table"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+		<TableRow
+        	android:id="@+id/RowName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="10dp"
+		        android:text="@string/statistics_name" />
+		    
+        </TableRow>
+        
+		<TableRow
+        	android:id="@+id/RowOriginalURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="10dp"
+		        android:text="@string/statistics_originalurl" />
+		    
+        </TableRow>
+        
+		<TableRow
+        	android:id="@+id/RowShortenedURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="10dp"
+		        android:text="@string/statistics_shorturl" />
+		    
+        </TableRow>
+        
+		<TableRow
+        	android:id="@+id/RowNbClicks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+		    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="10dp"
+		        android:text="@string/statistics_nbclicks" />
+		    
+        </TableRow>		
+		
+    </TableLayout>
+    
+    <TextView
+        android:id="@+id/webLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/statistics_viewweb" />
+
+    <Button
+        android:id="@+id/goTo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_goto" />
+
+    <ToggleButton
+        android:id="@+id/disable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/statistics_enable"
+        android:textOff="@string/statistics_disable"
+        android:checked="true" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_remove" />
+    
+</TableLayout>

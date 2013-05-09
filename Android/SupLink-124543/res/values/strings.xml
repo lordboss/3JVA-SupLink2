@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SupLink</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="login_wrongauth">Sorry. Login or password is incorrect.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="list">Shortlinks list</string>
+    <string name="list_add">New shortlink</string>
+    <string name="list_logout">Logout</string>
+    <string name="statistics">Shortlink statistics</string>
+    <string name="statistics_name">Name</string>
+    <string name="statistics_originalurl">Original URL</string>
+    <string name="statistics_shorturl">Shortened URL</string>
+    <string name="statistics_nbclicks">Nb clicks</string>
+    <string name="statistics_viewweb">View graph and pies on the website</string>
+    <string name="statistics_goto">Go to </string>
+    <string name="statistics_disable">Disable</string>
+    <string name="statistics_enable">Enable</string>
+    <string name="statistics_remove">Remove</string>
+    <string name="addnew">Add new shortlink</string>
+    <string name="addnew_name">Name</string>
+    <string name="addnew_url">URL</string>
+    <string name="addnew_button">Add new</string>
+    <string name="addnew_example">http://example.com</string>
+    
+</resources>
